@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 const stats = [
   { value: '48', label: 'State Coverage' },
@@ -42,18 +43,18 @@ export default function Hero() {
         </p>
 
         <div className="mt-10 flex flex-wrap gap-4">
-          <a
-            href="#contact"
+          <Link
+            href="/contact"
             className="font-heading bg-primary px-8 py-4 text-sm uppercase tracking-[0.2em] text-primary-foreground transition-opacity hover:opacity-90"
           >
             Schedule a Consultation
-          </a>
-          <a
-            href="#services"
+          </Link>
+          <Link
+            href="/services"
             className="font-heading border border-border bg-background/40 px-8 py-4 text-sm uppercase tracking-[0.2em] text-foreground transition-colors hover:bg-muted"
           >
             View Capabilities
-          </a>
+          </Link>
         </div>
 
         <dl className="mt-16 grid grid-cols-2 gap-px overflow-hidden border border-border bg-border md:grid-cols-4">

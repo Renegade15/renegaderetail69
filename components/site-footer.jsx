@@ -1,11 +1,19 @@
 import Image from 'next/image'
+import Link from 'next/link'
+
+const footerLinks = [
+  { label: 'About', href: '/about' },
+  { label: 'Services', href: '/services' },
+  { label: 'Projects', href: '/projects' },
+  { label: 'Contact', href: '/contact' },
+]
 
 export default function SiteFooter() {
   return (
     <footer className="bg-background">
       <div className="mx-auto max-w-7xl px-6 py-14">
         <div className="flex flex-col items-center gap-8 border-b border-border pb-10 md:flex-row md:justify-between">
-          <div className="flex items-center gap-3">
+          <Link href="/" className="flex items-center gap-3">
             <Image
               src="/images/renegade-logo.png"
               alt="Renegade Contracting badge logo"
@@ -21,17 +29,17 @@ export default function SiteFooter() {
                 Contracting Co.
               </span>
             </span>
-          </div>
+          </Link>
 
           <nav className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
-            {['Capabilities', 'Services', 'Technology', 'Contact'].map((item) => (
-              <a
-                key={item}
-                href={`#${item.toLowerCase()}`}
+            {footerLinks.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
                 className="font-heading text-sm uppercase tracking-[0.2em] text-muted-foreground transition-colors hover:text-foreground"
               >
-                {item}
-              </a>
+                {item.label}
+              </Link>
             ))}
           </nav>
         </div>

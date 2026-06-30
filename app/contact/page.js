@@ -11,7 +11,7 @@ export const metadata = {
 
 const details = [
   { label: 'Email', value: 'Cam@renegadecontracting.com', href: 'mailto:Cam@renegadecontracting.com' },
-  { label: 'Phone', value: '(000) 000-0000', href: 'tel:+10000000000' },
+  { label: 'Phone', value: '(603) 851-4836', href: 'tel:+16038514836' },
   { label: 'Based', value: 'East Coast USA' },
   { label: 'Coverage', value: 'Nationwide Execution' },
 ]

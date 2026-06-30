@@ -37,7 +37,7 @@ export default function Hero() {
         </h1>
 
         <p className="mt-8 max-w-2xl text-pretty text-lg leading-relaxed text-surface-foreground md:text-xl">
-          Renegade Contracting delivers rugged, white-glove commercial buildouts,
+          Renegade Retail delivers rugged, white-glove commercial buildouts,
           fixture and graphics installation, and nationwide rollouts, powered by
           relentless project management and real-time field visibility.
         </p>

@@ -15,9 +15,9 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: 'Renegade Contracting | Commercial Retail Buildouts & Rollouts',
+  title: 'Renegade Retail Co. | Commercial Retail Buildouts & Rollouts',
   description:
-    'Renegade Contracting delivers rugged, white-glove commercial retail construction, fixture installation, graphics, and nationwide rollout project management.',
+    'Renegade Retail Co. delivers rugged, white-glove commercial retail construction, fixture installation, graphics, and nationwide rollout project management.',
 }
 
 export const viewport = {

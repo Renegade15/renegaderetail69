@@ -5,9 +5,9 @@ import PageHero from '../../components/page-hero'
 import ContactCta from '../../components/contact-cta'
 
 export const metadata = {
-  title: 'About | Renegade Contracting Co.',
+  title: 'About | Renegade Retail Co.',
   description:
-    'From action-sports roots to nationwide retail execution. Meet the crew behind Renegade Contracting Co.',
+    'From action-sports roots to nationwide retail execution. Meet the crew behind Renegade Retail Co.',
 }
 
 const values = [
@@ -52,7 +52,7 @@ export default function AboutPage() {
           <div className="relative aspect-[4/3] overflow-hidden border border-border">
             <Image
               src="/images/about-crew.png"
-              alt="Renegade Contracting installation crew on a retail buildout site"
+              alt="Renegade Retail installation crew on a retail buildout site"
               fill
               className="object-cover"
             />

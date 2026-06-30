@@ -16,7 +16,7 @@ export default function ContactCta() {
 
         <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="mailto:projects@renegadecontracting.com"
+            href="mailto:projects@renegaderetail.com"
             className="font-heading bg-background px-8 py-4 text-sm uppercase tracking-[0.2em] text-foreground transition-opacity hover:opacity-90"
           >
             Start a Project

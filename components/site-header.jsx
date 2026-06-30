@@ -20,7 +20,7 @@ export default function SiteHeader() {
         <Link href="/" className="flex items-center gap-3">
           <Image
             src="/images/renegade-logo.png"
-            alt="Renegade Contracting badge logo"
+            alt="Renegade Retail badge logo"
             width={48}
             height={48}
             className="h-11 w-11 object-contain"
@@ -31,7 +31,7 @@ export default function SiteHeader() {
               Renegade
             </span>
             <span className="text-[0.6rem] uppercase tracking-[0.34em] text-muted-foreground">
-              Contracting Co.
+              Retail Co.
             </span>
           </span>
         </Link>

@@ -7,7 +7,7 @@ import ContactCta from '../../components/contact-cta'
 export const metadata = {
   title: 'Renegade Screenprinting | Renegade Retail Co.',
   description:
-    'In-house screen printing and embroidery for retail branding. Custom apparel, uniforms, headwear, and branded merchandise produced and decorated under one roof.',
+    'Quality small to medium batch screen printing and embroidery for local and regional brands and retailers. Custom apparel, uniforms, headwear, and branded merch decorated in-house.',
 }
 
 const capabilities = [
@@ -15,12 +15,12 @@ const capabilities = [
     num: '01',
     title: 'Screen Printing',
     img: '/images/screenprint-press.png',
-    desc: 'High-volume, full-color screen printing on apparel and soft goods. Automatic presses deliver crisp, durable prints at retail scale with consistent color across every run.',
+    desc: 'Quality-first screen printing built for small to medium batch runs. We obsess over the details local and regional brands actually care about — crisp registration, true colors, and a hand that lasts wash after wash.',
     points: [
-      'Automatic multi-color presses',
+      'Small to medium batch specialists',
       'Plastisol, water-based, and discharge inks',
       'Custom Pantone color matching',
-      'Short runs to large production volumes',
+      'Soft-hand prints made to last',
     ],
   },
   {
@@ -57,7 +57,7 @@ export default function ScreenprintingPage() {
       <PageHero
         eyebrow="In-House Decoration"
         title="Renegade Screenprinting."
-        description="Screen printing, embroidery, and retail branding produced under our own roof. The same renegade standard that builds the store now outfits the people in it."
+        description="Quality small to medium batch screen printing and embroidery for local and regional brands and retailers. The same renegade standard that builds the store now outfits the people in it."
       />
 
       <section className="border-b border-border">
@@ -65,7 +65,7 @@ export default function ScreenprintingPage() {
           <div className="relative aspect-[4/3] overflow-hidden border border-border">
             <Image
               src="/images/screenprint-hero.png"
-              alt="Renegade Screenprinting shop floor with automatic screen printing press"
+              alt="Renegade Screenprinting shop floor with screen printing press"
               fill
               className="object-cover"
               priority
@@ -73,22 +73,23 @@ export default function ScreenprintingPage() {
           </div>
           <div>
             <p className="font-heading text-sm uppercase tracking-[0.32em] text-muted-foreground">
-              One Roof, Full Control
+              Built for Local & Regional Brands
             </p>
             <h2 className="font-heading mt-5 text-balance text-3xl font-bold uppercase leading-tight tracking-tight md:text-5xl">
-              Branding That Goes Beyond the Walls.
+              Quality Over Quantity, Every Run.
             </h2>
             <div className="mt-6 space-y-5 text-pretty leading-relaxed text-muted-foreground">
               <p>
-                Renegade Screenprinting is our in-house decoration division. We
-                print and stitch every job ourselves &mdash; no brokered orders,
-                no waiting on outside vendors, no surprises on quality or
-                timeline.
+                Renegade Screenprinting is our in-house decoration division built
+                for small to medium batch work. We print and stitch every job
+                ourselves &mdash; no brokered orders, no offshore production, no
+                cutting corners to chase volume.
               </p>
               <p>
-                Because it lives alongside our fixture and graphics crews, your
-                retail buildout and your branded apparel ship to the same
-                standard, on the same schedule, from the same team.
+                We&apos;re the shop local and regional brands and retailers call
+                when the print has to be right. Tight runs, real attention to
+                detail, and a finished piece that looks as good as the brand
+                behind it.
               </p>
             </div>
           </div>

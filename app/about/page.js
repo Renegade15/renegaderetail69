@@ -32,8 +32,8 @@ const values = [
 
 const milestones = [
   { year: '2018', label: 'Founded on the East Coast' },
-  { year: '5,000+', label: 'Installs completed' },
-  { year: '48', label: 'States served' },
+  { year: '2,500+', label: 'Installs completed' },
+  { year: '18', label: 'States served' },
   { year: '100%', label: 'Self-performing crews' },
 ]
 

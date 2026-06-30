@@ -2,8 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const stats = [
-  { value: '48', label: 'State Coverage' },
-  { value: '5,000+', label: 'Installs Completed' },
+  { value: '18', label: 'States Served' },
+  { value: '2,500+', label: 'Installs Completed' },
   { value: '15 Min', label: 'PM Response Standard' },
   { value: '24/7', label: 'Rollout Support' },
 ]

@@ -10,7 +10,7 @@ export const metadata = {
 }
 
 const details = [
-  { label: 'Email', value: 'projects@renegaderetail.com', href: 'mailto:projects@renegaderetail.com' },
+  { label: 'Email', value: 'Cam@renegadecontracting.com', href: 'mailto:Cam@renegadecontracting.com' },
   { label: 'Phone', value: '(000) 000-0000', href: 'tel:+10000000000' },
   { label: 'Based', value: 'East Coast USA' },
   { label: 'Coverage', value: 'Nationwide Execution' },

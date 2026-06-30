@@ -5,9 +5,9 @@ import PageHero from '../../components/page-hero'
 import ContactCta from '../../components/contact-cta'
 
 export const metadata = {
-  title: 'Projects | Renegade Contracting Co.',
+  title: 'Projects | Renegade Retail Co.',
   description:
-    'A look at retail buildouts, fixture installs, graphics, and national rollouts executed by Renegade Contracting Co.',
+    'A look at retail buildouts, fixture installs, graphics, and national rollouts executed by Renegade Retail Co.',
 }
 
 const projects = [

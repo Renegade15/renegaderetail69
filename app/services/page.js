@@ -5,7 +5,7 @@ import PageHero from '../../components/page-hero'
 import ContactCta from '../../components/contact-cta'
 
 export const metadata = {
-  title: 'Services | Renegade Contracting Co.',
+  title: 'Services | Renegade Retail Co.',
   description:
     'Retail fixture installation, graphics and vinyl, national rollouts, and experiential environments executed nationwide.',
 }

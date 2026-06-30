@@ -4,6 +4,7 @@ import Link from 'next/link'
 const footerLinks = [
   { label: 'About', href: '/about' },
   { label: 'Services', href: '/services' },
+  { label: 'Screenprinting', href: '/screenprinting' },
   { label: 'Projects', href: '/projects' },
   { label: 'Contact', href: '/contact' },
 ]
@@ -16,7 +17,7 @@ export default function SiteFooter() {
           <Link href="/" className="flex items-center gap-3">
             <Image
               src="/images/renegade-logo.png"
-              alt="Renegade Contracting badge logo"
+              alt="Renegade Retail badge logo"
               width={44}
               height={44}
               className="h-10 w-10 object-contain"
@@ -26,7 +27,7 @@ export default function SiteFooter() {
                 Renegade
               </span>
               <span className="text-[0.6rem] uppercase tracking-[0.34em] text-muted-foreground">
-                Contracting Co.
+                Retail Co.
               </span>
             </span>
           </Link>
@@ -45,7 +46,7 @@ export default function SiteFooter() {
         </div>
 
         <div className="mt-8 flex flex-col items-center gap-3 text-center text-sm text-muted-foreground md:flex-row md:justify-between md:text-left">
-          <p>&copy; {new Date().getFullYear()} Renegade Contracting Co. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Renegade Retail Co. All rights reserved.</p>
           <p className="font-heading uppercase tracking-[0.2em]">East Coast USA &middot; Nationwide Execution</p>
         </div>
       </div>

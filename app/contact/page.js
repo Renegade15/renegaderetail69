@@ -4,13 +4,13 @@ import PageHero from '../../components/page-hero'
 import ContactForm from '../../components/contact-form'
 
 export const metadata = {
-  title: 'Contact | Renegade Contracting Co.',
+  title: 'Contact | Renegade Retail Co.',
   description:
-    'Start a retail buildout, fixture install, graphics program, or national rollout with Renegade Contracting Co.',
+    'Start a retail buildout, fixture install, graphics program, or national rollout with Renegade Retail Co.',
 }
 
 const details = [
-  { label: 'Email', value: 'projects@renegadecontracting.com', href: 'mailto:projects@renegadecontracting.com' },
+  { label: 'Email', value: 'projects@renegaderetail.com', href: 'mailto:projects@renegaderetail.com' },
   { label: 'Phone', value: '(000) 000-0000', href: 'tel:+10000000000' },
   { label: 'Based', value: 'East Coast USA' },
   { label: 'Coverage', value: 'Nationwide Execution' },
